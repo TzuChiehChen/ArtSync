@@ -1,10 +1,15 @@
 import React from 'react'
-import Background from "./Components/Background/Background"
+import {Background, Blog, Header, Iteration, Showcase} from "./Components"
+
 
 const App = () => {
-  return (
+  return <div>
     <Background />
-  )
+    <Blog /> 
+    <Header />
+    <Iteration />
+    <Showcase />
+    </div>
 }
 
 export default App
