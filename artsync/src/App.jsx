@@ -4,9 +4,9 @@ import {Background, Blog, Header, Iteration, Showcase} from "./Components"
 
 const App = () => {
   return <div>
+    <Header />
     <Background />
     <Blog /> 
-    <Header />
     <Iteration />
     <Showcase />
     </div>

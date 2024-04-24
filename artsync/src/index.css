@@ -1,0 +1,28 @@
+:root{
+    --dark-color: #212427;
+    --red-color: #C8544f;
+    --orange-color: #FB8A2A;
+    --grey-color: #9C9FA1;
+    --white-color: #FFFFFF;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif, "Alegreya"
+}
+
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
