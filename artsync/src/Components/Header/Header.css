@@ -1,9 +1,16 @@
 header { 
     min-height: 100vh;
-    background: url("../../assets/hero.png") no-repeat;
-    background-size: 80%;
+    background: 
+        url("../../assets/hero.png") no-repeat,
+        url("../../assets/artsync.png") no-repeat;
+
+    background-color: black;
+    background-size: 80%, auto;
     background-position: center;
+    
+
 }
+
 
 header .wrapper{
     position: relative;
@@ -14,4 +21,9 @@ header .cta{
     position: absolute;
     bottom: 0;
     right:0;
+    
+}
+
+header {
+    background-size: 70%, auto; /* Adjust the size of the second layer (artsync image) */
 }
