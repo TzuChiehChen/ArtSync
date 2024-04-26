@@ -1,6 +1,17 @@
 header { 
     min-height: 100vh;
-    background: url("../../assets/hero.png");
-    background-size: 10%;
+    background: url("../../assets/hero.png") no-repeat;
+    background-size: 80%;
     background-position: center;
+}
+
+header.wrapper{
+    position: relative;
+    height: 100vh;
+}
+
+header.cta{
+    position: absolute;
+    bottom: 0;
+    right:0;
 }
